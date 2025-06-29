@@ -1,0 +1,19 @@
+﻿<Application
+    x:Class="EAappEmulater.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    ShutdownMode="OnMainWindowClose"
+    StartupUri="/Windows/AccountWindow.xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--  资源字典  -->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ModernWpf;component/Themes/Generic.xaml" />
+                <!-- 默认语言 -->
+                <ResourceDictionary Source="Assets\Files\Lang\zh-CN.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
